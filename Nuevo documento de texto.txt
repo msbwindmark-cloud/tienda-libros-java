@@ -1,0 +1,53 @@
+{
+  "id": 0,
+  "title": "El Coran",
+  "author": "Allah",
+  "price": 10.23,
+  "imageUrl": "https://m.media-amazon.com/images/I/71AyERqqANL._AC_UF1000,1000_QL80_.jpg"
+}
+
+
+
+
+{
+  "id": 0,
+  "title": "Hibernate Made Eas",
+  "author": "Cameron Wallace McKenzie ",
+  "price": 100.45,
+  "imageUrl": "https://m.media-amazon.com/images/I/71srjxpCrdL._AC_UF1000,1000_QL80_.jpg"
+}
+
+
+{
+  "id": 0,
+  "title": "Python Programming for Beginners",
+  "author": "codeprowess",
+  "price": 50.45,
+  "imageUrl": "https://m.media-amazon.com/images/I/71dtU4xge8L._AC_UF1000,1000_QL80_.jpg"
+}
+
+
+
+
+/*
+	 * @PostMapping("/registrar") public String registrar(@RequestBody Usuario
+	 * usuario) { // Encriptamos la contraseña antes de guardar
+	 * usuario.setPassword(passwordEncoder.encode(usuario.getPassword()));
+	 * usuario.setRole("ROLE_USER"); usuarioRepository.save(usuario); return
+	 * "Usuario registrado correctamente"; }
+	 */
+
+
+
+echo "# tienda-libros-java" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/msbwindmark-cloud/tienda-libros-java.git
+git push -u origin main
+
+
+
+
+

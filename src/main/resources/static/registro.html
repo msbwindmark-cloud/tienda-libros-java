@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Registro - Gestión de Libros</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.2/dist/morph/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-light d-flex align-items-center justify-content-center vh-100">
+	<div class="card shadow-lg border-0 p-5" style="width: 100%; max-width: 400px;">
+		<div class="card-body">
+			<h2 class="text-center mb-4 fw-bold">Crear Cuenta</h2>
+			<form id="registroForm">
+				<div class="mb-3">
+					<label class="form-label">Nuevo Usuario</label>
+					<input type="text" id="regUsername" class="form-control form-control-lg"
+						placeholder="Tu nombre de usuario" required>
+				</div>
+				<div class="mb-4">
+					<label class="form-label">Contraseña</label>
+					<input type="password" id="regPassword" class="form-control form-control-lg" placeholder="••••••••"
+						required>
+				</div>
+				<button type="submit" class="btn btn-success btn-lg w-100 shadow-sm">Registrarse</button>
+				<div class="text-center mt-4">
+					<a href="/login.html" class="text-muted text-decoration-none">¿Ya tienes cuenta? <span
+							class="text-primary fw-bold">Logueate</span></a>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script src="registro.js"></script>
+	<script>
+
+	</script>
+</body>
+
+</html>
