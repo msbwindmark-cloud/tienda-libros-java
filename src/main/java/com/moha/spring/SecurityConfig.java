@@ -20,7 +20,7 @@ public class SecurityConfig {
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		http.csrf(csrf -> csrf.disable()).authorizeHttpRequests(auth -> auth
 				// 1. Acceso total a archivos y registro
-				.requestMatchers("/login.html", "/registro.html", "/style.css", "/api/usuarios/registrar",
+				.requestMatchers("/login.html", "/registro.html", "/style.css","/*.js", "/api/usuarios/registrar",
 						"/api/usuarios/me")
 				.permitAll()
 
